@@ -14,9 +14,9 @@ namespace ConnectingToSqlite
             dbObj.OpenConnection();
 
             CreateTable(dbObj.dbConnect);
-            Console.WriteLine("Table Created");
-            InsertData(cmd);
-            Console.WriteLine("Data Inserted");
+            //Console.WriteLine("Table Created");
+            //InsertData(cmd);
+            //Console.WriteLine("Data Inserted");
             RetriveDb(cmd);
 
             Console.Write("Enter Ticket Id : ");
